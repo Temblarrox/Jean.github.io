@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital,wght@0,600;1,600&family=Teko:wght@600&display=swap');
+
+body{
+    margin: 0;  
+}
+
+.main{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+
+}
+.main .Sidebar{
+    padding: 5px;
+    background-color: rgb(169, 169, 173);
+    width: 30%;
+    height: 500px;
+    padding: auto;
+    border: solid 4px black;
+    position: sticky;
+    top: 30px;
+}
+.main .Sidebar p{
+    margin-top: 70px;
+}
+.main .Sidebar ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    font-family:Teko ;
+}
+.main .Sidebar ul li{
+    list-style-type: none;
+}
+.main .contenue{
+    width: 70%;
+    border: solid 5px black;
+    margin-left: 40px;
+    padding: 30px;
+}
+.main .contenue h3{
+    text-align: center;
+}
+.main .contenue h4{
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-image: url(../Images/circuit.jpg);
+    border-bottom: 5px solid black;
+}
+header img{
+    height: 350px;
+    width: 200px;
+    border: 3px solid black;
+}
+header .med{
+    height: 200px;
+    width: 125px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+table tr td{
+    width: auto;
+    text-align: center;
+    border: solid 2px black;
+    padding: 10px 20px;
+}
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+table tr:first-child{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border: 4px solid black;
+}
+.main .contenue .experience {
+    border-bottom: solid black 5px ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    border: 5px black solid;
+    padding: 10px;
+}
